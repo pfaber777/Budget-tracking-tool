@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Budget Tracker</title>
+    </head>
+<body>
+    <!--Top Menu bar-->
+    <header class="hd-container">
+        <nav class="menu-all">
+            <h1 class="Logo">Budget Tracker</h1>
+                <!-- <div class="hamburger-container">
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div> -->
+        </nav>
+    </header>
+    <!--Top Menu End-->
+    <!--Drop Down-->
+    <div class="menu-container">
+        <!-- <ul class="menu">
+            <li><a href="#">Calculate</a></li class="item">
+            <li class="item"><a href="#">Expenses</a></li>
+        </ul> -->
+    </div>
+    <!--Drop Down End-->
+    <!--Budget Display-->
+    <div class="balance-display">
+        <section class="balance-container">
+            <section class="balance-details">
+                <section class="budget-btns">
+                    <button title="edit" type="button" class="edit-budget">Edit Budget</button>
+                    <button title="reset" type="reset" class="reset"><i class="fas fa-sync-alt"></i></button>
+
+                </section>
+                <!-- <h4 class="budget-heading">Budget</h4> -->
+                <h1 class="current-balance"></h1>
+                <p class="current-balance-head">current balance</p>
+                <section class="budget-panel">
+                    <label for="addButton">
+                        <span class="add-btn" name="addButton"><i class="fas fa-plus"></i></span>
+
+                    </label>
+                </section>
+                <section class="budget-select">
+                    <label for="budgets" class="budgets">Account</label>
+                        <select name="Budgets" title="Budget" id="options">
+                            <option value="savings" class="savings">Savings</option>
+                            <option value="cheque" class="cheque">Cheque</option>
+                        </select>
+                    <label class="exp-input-lab" for="exp-input">Item</label>
+                        <input type="text" name="user-input" placeholder="Enter item" class="exp-input">
+                    <button type="button" title="add" class="add">Add</button>
+                </section>
+
+
+            </section>
+        </section>
+    </div>
+    <!--Budget End-->       
+    <!--Expense list-->
+    <div class="expense-container">
+        <section class="expense-list">
+            <section class="list-heading">
+                <ul class="acc-headings">
+                    <li class="heading">Account</li>
+                    <li class="heading">Price</li>
+                </ul>
+    
+            </section>
+            <ul class="list-item">
+                <!--ul-->
+                    <!-- <li>item</li> -->
+                <!--ul-->
+            </ul>
+        </section>
+    </div>
+    <!--Expense End-->
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>        
+        
+    
